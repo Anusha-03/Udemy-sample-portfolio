@@ -1,0 +1,51 @@
+body, html {
+    height: 100%; 
+    padding: 0px;   
+    border: 0px;
+    margin: 0px;
+}
+
+
+/*******************CLASS SELECTORS****************/
+
+
+.main_bg_img{
+    background-image: url(main_bg_img.png);
+    height: 100%;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.welcome_msg {
+    color: black;
+    font-size: 50px;
+    font-style: inherit;
+    padding: 0px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.intro_note {
+    color: black;
+    font-size: 40px;
+    font-style: italic bold;
+    letter-spacing: 3px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.clock {
+    color: black;
+    font-size: 80px;
+    font-style: italic bold;
+    padding: 0px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+div{
+    display: block;
+}
